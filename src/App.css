@@ -1,0 +1,34 @@
+.pagination {
+  display: flex;
+  align-items:  center;
+  gap: 10px;
+}
+.pagination > li {
+  border: 2px solid #196c6c;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2;
+}
+
+.pagination > li:hover{
+  background: #196c6c;
+  color: white;
+  transition: all;
+  transition-duration: 0.3s;
+  border: none;
+}
+
+.pagination > li.active {
+  color: #fff;
+  background-color: #196c6c;
+  border-color: #196c6c;
+}
+
+.pagination > li:hover {
+  background-color:  #196c6c;
+  color: white;
+}
